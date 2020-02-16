@@ -1,0 +1,91 @@
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(rgba(0,18,81, 0.27), rgba(0,18,81, 0.27)), url(/img/cubeBG.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    overflow-x: hidden; 
+    background-repeat: no-repeat;
+}
+.loginBox {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    height: 528px;
+    width: 407px;
+    background: #fff;
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    vertical-align: center;
+    border-radius: 10px;
+    box-shadow: 31px 50px 50px rgba(0,0,0, 0.2);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    margin-top: 5vh;
+    padding: 25px;
+    font-size: 40px;
+    color: #232323;
+}
+input {
+    width: 256px;
+    height: 62px;
+    border: 1px solid #BABABA;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 20px;
+    padding-left: 20px;
+}
+input:hover {
+    border: 1px solid #5F5F5F;
+    transition: 0.5s ease;
+}
+::placeholder {
+    font-size: 20px;
+    color: #BABABA;
+}
+img {
+    height: 50px;
+    width: 50px;
+    margin: 10px 5px;
+    opacity: 0.8;
+}
+img:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.btn {
+    width: 195px;
+    height: 45px;
+    background: #F03428;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.btn:hover {
+    background: #E8665E;
+    transition: 0.5s ease;
+}
+.label {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #5F5F5F;
+}
